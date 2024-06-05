@@ -5,29 +5,18 @@ In this case study, we will explore a fraud detection problem using a dataset co
 
 ## Dataset Description:
 The dataset consists of the following columns:
-__Column Name__	__Description__
-step	Maps a unit of time in the real world. 1 step = 1 hour of time.
-Customer	Unique customer ID associated with each transaction.
-zipCodeOrigin	The zip code of the transaction's origin/source.
-Merchant	The unique ID of the merchant involved in the transaction.
-zipMerchant	The zip code of the merchant.
-Age	Categorized age of the customer:
-	0: <= 18
-	1: 19-25
-	2: 26-35
-	3: 36-45
-	4: 46-55
-	5: 56-65
-	6: > 65
-	U: Unknown
-Gender	Gender of the customer:
-	E: Enterprise
-	F: Female
-	M: Male
-	U: Unknown
-Category	Category of the purchase.
-Amount	The amount of the purchase.
-Fraud	Target variable: 1 if transaction is fraudulent, 0 if benign.
+__Column Name__		__Description__
+
+•	step	Maps a unit of time in the real world. 1 step = 1 hour of time.
+•	Customer	Unique customer ID associated with each transaction.
+•	zipCodeOrigin	The zip code of the transaction's origin/source.
+•	Merchant	The unique ID of the merchant involved in the transaction.
+•	zipMerchant	The zip code of the merchant.
+•	Age	Categorized age of the customer.
+•	Gender	Categorized gender of the customer.
+•	Category	Category of the purchase.
+•	Amount	The amount of the purchase.
+•	Fraud	Target variable: 1 if transaction is fraudulent, 0 if benign.
 
 
 ## Objective:
