@@ -5,17 +5,25 @@ In this case study, we will explore a fraud detection problem using a dataset co
 
 ## Dataset Description:
 The dataset consists of the following columns:
-__Column Name__		__Description__
 
 •	step	Maps a unit of time in the real world. 1 step = 1 hour of time.
+
 •	Customer	Unique customer ID associated with each transaction.
+
 •	zipCodeOrigin	The zip code of the transaction's origin/source.
+
 •	Merchant	The unique ID of the merchant involved in the transaction.
+
 •	zipMerchant	The zip code of the merchant.
+
 •	Age	Categorized age of the customer.
+
 •	Gender	Categorized gender of the customer.
+
 •	Category	Category of the purchase.
+
 •	Amount	The amount of the purchase.
+
 •	Fraud	Target variable: 1 if transaction is fraudulent, 0 if benign.
 
 
@@ -25,12 +33,16 @@ The main objective of this case study is to develop a predictive model that can 
 ## Key Steps for consideration:
 ### Data Preprocessing:
 •	Handle missing values, if any, using appropriate techniques.
+
 •	Encode categorical variables (Age, Gender) using techniques such as one-hot encoding.
+
 •	Split the dataset into features (independent variables) and the target variable (Fraud).
 
 ### Exploratory Data Analysis (EDA):
 •	Explore the distribution of the target variable (Fraud) to understand the class imbalance.
+
 •	Analyze the distribution of features and their relationships with the target variable.
+
 •	Visualize trends, patterns, and potential outliers in the data.
 
 ### Feature Engineering:
@@ -39,14 +51,17 @@ The main objective of this case study is to develop a predictive model that can 
 
 ### Model Selection:
 •	Choose appropriate machine learning algorithms for fraud detection, such as Random Forest, Gradient Boosting, Logistic Regression, or Neural Networks.
+
 •	Set up a suitable evaluation metric considering the class imbalance, such as F1-score or Area Under the ROC Curve (AUC-ROC).
 
 ### Model Training:
 •	Split the dataset into training and testing subsets.
+
 •	Train the selected models on the training data.
 
 ### Model Evaluation:
 •	Evaluate the models using the chosen evaluation metric on the test data.
+
 •	Compare the performance of different models and select the best-performing one.
 
 ### Model Interpretation:
@@ -60,6 +75,8 @@ The main objective of this case study is to develop a predictive model that can 
 
 ### Key deliverables:
 •	Push the final model code to a Github and share the link.
+
 •	Create a PowerPoint explaining the steps you have considered and why.
+
 •	Create recommendations and key outcomes which can be presented to the business teams.
 
